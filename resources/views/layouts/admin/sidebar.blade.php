@@ -11,9 +11,11 @@
             <li class="{{ Route::is('admin.dashboard') ? 'active' : '' }}"><a class="nav-link"
                     href="{{ route('admin.dashboard') }}"><i class="fas fa-home"></i> <span>Dashboard</span></a>
             </li>
-            <li class="{{ Route::is('admin.product') ? 'active' : '' }}"><a class="nav-link"
-                    href="{{ route('admin.product') }}"><i class="fas fa-home"></i> <span>Produk</span></a>
+            <li class="{{ Request::is('product*') ? 'active' : '' }}">
+                <a class="nav-link" href="{{ route('admin.product') }}"><i class="fas fa-box"></i>
+                    <span>Produk</span></a>
             </li>
+
         </ul>
     </aside>
 </div>

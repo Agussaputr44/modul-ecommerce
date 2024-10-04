@@ -9,3 +9,4 @@
 <link rel="stylesheet" href="{{ asset('assets/templates/user/css/ion.rangeSlider.css') }}">
 <link rel="stylesheet" href="{{ asset('assets/templates/user/css/ion.rangeSlider.skinFlat.css') }}">
 <link rel="stylesheet" href="{{ asset('assets/templates/user/css/magnific-popup.css') }}">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
